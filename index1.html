@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+     body{
+        font-family: 'Alata', sans-serif;
+     }
+     *{
+        box-sizing: border-box;
+        margin: 0;
+     }
+     section{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        background-color: rgba(0, 255, 255, 0.361);
+     }
+     .container{
+        width:1000px;
+        margin: auto;
+        /* border: 1px solid black; */
+         min-height: 650px;
+        display: flex;
+        background-color: aliceblue;
+        box-shadow: 0px 0px 16px rgba(0,0,0,0.5);
+
+
+     }
+     .container .left{
+        width: 50%;
+        display:flex;
+        align-items:center;
+        padding: 0 60px;
+
+     }
+     .container .right{
+             width: 50%;
+             background-color: rgba(128, 128, 128, 0.596);
+     }
+     .form-login h2{
+        margin-bottom:20px;
+     }
+     .form-group label{
+        display: block;
+        margin-bottom: 5px;
+     }
+     .form-login{
+        width: 100%;
+        /* margin-bottom: 100px; */
+     }
+     .form-group{
+      margin-bottom: 10px;
+     }
+     .form-group input{
+        width: 100%;
+        height: 39px;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.495);
+        color: white;
+        border: none;
+        /* margin-left: 10px; */
+        border-bottom: 2px solid black;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+       
+     }
+     input:focus{
+        outline: none;
+     }
+     ::placeholder{
+        color: white;
+        padding-left: 10px;
+     }
+     hr{
+      margin-bottom:10px ;
+     color: black;
+
+     }
+     button{
+      width: 100%;
+      margin-top: 30px;
+      margin-bottom: 5px;
+      height: 39px;
+      background-color:green;
+      border: none;
+      border-radius: 4px;
+      
+     }
+    a{
+      text-decoration: none;
+     }
+     .social-media-login{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      border-top: 1px solid black;
+      margin-top: 30px;
+      padding-top: 20px;
+
+
+     }
+     .social-media-login a{
+      display: block;
+      padding: 10px;
+     }
+     .social-media-login a img{
+      width: 32px;
+      
+   }
+</style>
+<body>
+    <section>
+        <div class="container">
+            <div class="left">
+                <div class="form-login">
+                    <h2>signup here</h2>   
+                    <hr>            
+                <form>
+                    <div class="form-group">
+                        <label>enter nmae</label>
+                        <input type="text" placeholder="enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label>enter email</label>
+                        <input type="email" placeholder="enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label>enter password</label>
+                        <input type="password" placeholder="enter your name">
+                    </div>
+                    <div class="form-group">
+                    <button type="submit"> Login</button>
+                 </div>
+                    <div>already ragistered <a href="">login here</a></div>
+                    <div><a href="">forgot password</a></div>
+                </form>
+                <div class="social-media-login">
+                  <a href=""> 
+                     <img src="google.png" alt=""></a>
+                  <a href="">
+                     <img src="facebook.png" alt=""></a>
+                  <a href="">
+                     <img src="linkedein.png" alt=""></a>
+                </div>
+            </div>
+
+
+            </div>
+            <div class="right"></div>
+        </div>
+    </section>
+    
+</body>
+</html>

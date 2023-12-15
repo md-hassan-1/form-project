@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<style>
+     @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+     body{
+        font-family: 'Alata', sans-serif;
+    }
+    *{
+        box-sizing: border-box;
+        margin: 0;
+    }
+    section{
+        height: 100vh;
+        background: linear-gradient(to right, rgba(74, 74, 241, 0.932), rgb(127, 241, 241));
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        width: 360px;
+        height: 600px;
+        background-color: white;
+        box-shadow: 1px 2px 16px rgba(0,0,0,0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .form{
+        width: 310px;
+        height:550px ;
+        /* border: 1px solid black; */
+        border-bottom: none;
+
+    }
+    h1{
+        text-align: center;
+        font-size: 27px;
+        
+    }
+    p{
+        line-height: 2.3;
+        margin-bottom: -8px;
+        margin-top: 10px;
+    }
+    .p{
+        line-height: 2.3;
+        margin-bottom: -8px;
+        margin-top: 10px;
+    
+    }
+      input{
+        padding-left: 10px;
+        height: 40px;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+    div{
+        width: 100%;
+        height: 40px;
+        border: 1px solid black;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+    .div1{
+        /* margin-top: 30px; */
+        width: 100%;
+        height: 40px;
+        border: 1px solid black;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+    input:focus{
+        outline: none;
+    }
+    h4{
+        text-align: right;
+        padding: 5px;
+        font-weight: lighter;
+        color: rgba(0, 0, 0, 0.646);
+    }
+    button{
+        width: 100%;
+        height: 40px;
+        margin-top: 30px;
+        border-radius: 50px; 
+        background: linear-gradient(to right, rgba(74, 74, 241, 0.932), rgb(127, 241, 241));
+        border: none;
+       
+    }
+    a{
+        text-decoration: none;
+    }
+   #h4{
+    
+        text-align: center;
+        padding: 30px;
+        color: rgba(0, 0, 0, 0.646);
+        text-decoration: none;
+        
+    }
+    .gif{
+        border: none;
+        display: flex;
+        justify-content: center;
+        
+
+        
+    }
+    img{
+        width: 32px;
+        margin: 0px 5px;
+    }
+    #h5{
+        text-align: center;
+        padding: 80px;
+        color: rgba(0, 0, 0, 0.646);
+
+    }
+    h3{
+        text-align: center;
+        padding: -100px;
+        color: rgba(0, 0, 0, 0.868);
+
+    }
+    span{
+        display: block;
+        font-size: 10px;
+        padding: 5px;
+        font-weight: bold;
+    }
+</style>
+<body>
+    <section>
+        <form action="">
+        <div class="container">
+            <div class="form">
+                <h1>Login</h1>
+                <p>username</p>
+               <div> <i class="fa fa-user"></i><input type="text" placeholder="type your user name"></div>
+               <p class="p">password</p>
+               <div class="div1"> <i class="fa fa-lock"></i><input type="password" placeholder="type your user password"></div>
+               <a href=""><h4>forget password</h4> </a>
+                 <button type="submit">LOGIN</button>    
+                 <h4 id="h4">or sign up using here</h4> 
+                
+                   <div class="gif"> <a href=""><img src="facebook.png" alt=""></a>
+                    <a href=""><img src="twitter.png" alt=""></a>
+                    <a href=""><img src="social.png" alt=""></a>
+                    
+
+                </div>
+                
+                <h4 id="h5">or sign up using  <span>SIGN UP</span> </h4> 
+         
+               
+                
+            </div>
+
+        </div>
+    </form>
+    </section>
+    
+</body>
+</html>

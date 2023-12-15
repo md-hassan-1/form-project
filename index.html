@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+    :root{
+        --color:#5C5470
+    }
+    *{
+        box-sizing: border-box;
+        margin: 0;
+
+    }
+    body{
+     font-family: 'Alata', sans-serif;
+    }
+    section{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .main-form{
+        width: 400px;
+        background-color: var(--color);
+        padding: 20px 20px;
+        border-radius: 10px;
+    }
+   .form-logo{
+    padding-bottom:15px ;
+    }
+ .form-logo label{
+    display: block;
+    margin-bottom: 10px;
+}
+.form-logo input{
+    width: 100%;
+  height: 42px;
+  background-color: rgba(128, 128, 128, 0.164);
+  color: white;
+  border: none;
+  border-bottom: 1px solid black;
+}
+::placeholder{ 
+    color: white;
+}
+input:focus{
+    outline: none;
+}
+button{
+    width: 100%;
+    padding:  10px;
+    border-radius: 5px;
+    border: none;
+   
+   }
+</style>
+<body>
+   <section>
+  <form>
+
+    <div class="main-form">
+        <div class="form-logo">
+            <label>enter name</label>
+            <input type="text" name="enter your name" placeholder="enter your name">
+        </div>
+        <div class="form-logo">
+            <label>phone</label>
+            <input type="tel" name="enter your number" placeholder="enter your number">
+        </div>
+        <div class="form-logo">
+            <label>password</label>
+            <input type="password" name="password"  class="password" placeholder="enter your password">
+        </div>
+        <button type="submit">login</button>
+    </div>
+  </form>
+   </section>
+    
+</body>
+</html>

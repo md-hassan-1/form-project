@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+     body{
+        font-family: 'Alata', sans-serif;
+    }
+        *{
+            box-sizing: border-box;
+            margin: 0%;
+        }
+        section{
+            height: 100vh;
+            background-color: aliceblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container{
+            width: 1000px;
+            height: 700px;
+            background-color: bisque;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .main-form{
+            background-color: white;
+            width: 350px;
+            height: 600px;
+            
+
+        }
+        .form{
+            width: 100%;
+            height: 170px;
+            background-color: black;
+        }
+        .form2{
+            width: 100%;
+            height: calc(600px - 170px);
+            background-color: white;
+            margin-top: 0px;
+        }
+        .login-form{
+            height: 40px;
+            margin-left: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+
+
+        }
+        input{
+            height: 40px;
+            width: 100%;
+            border: none;
+            border-bottom: 1px solid black;
+        
+        }
+        button{
+            margin-left:30px;
+            margin-top: 40px;
+            /* margin-right: 20px; */
+            width: 83%;
+            padding: 10px;
+            background-color: blue;
+            color: white;
+            border: none;
+
+        }
+     
+       
+       .check{
+        width: 20px;
+        height: 20px;
+        border: 2px solid blue;
+        margin-left: 30px;
+        margin-top: 20px;
+        border-radius:4px ;
+        position: relative;
+        cursor: pointer;
+       }
+       .p{
+position: absolute;
+display: inline-block;
+color: blue;
+width: 100px;
+top: -2px;
+left: 30px;
+cursor: pointer;
+
+       }
+       .d{
+        position: absolute;
+        left: 180px;
+        width: 150px;
+        top: -2px;
+        color: blue;
+        cursor: pointer;
+       }
+       h3{
+        text-align: center;
+        line-height: 8.3;
+       }
+       span{
+        color: blue;
+       }
+
+
+    </style>
+
+</head>
+<body>
+    <section>
+        <form action="">
+        <div class="container">
+            <div class="main-form">
+                <div class="form"></div>
+                <div class="form2">
+                    <div class="login-form"><input type="text" placeholder="username"></div>
+                    <div class="login-form"><input type="password" name="password"   placeholder="password"></div>
+                    <button type="submit">login</button>
+                    <div class="check">
+                        <div class="p"> <p>remeber me</p></div>
+                        <div class="d">forget password</div>
+                       
+                    </div>
+                    <h3>not a member yet? <span>sign Up!</span></h3>
+                    
+                 
+            </div>
+            </div>
+
+        </div>
+    </form>
+    </section>
+    
+</body>
+</html>
